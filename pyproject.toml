@@ -1,0 +1,15 @@
+[project]
+name = "studydemo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.7"
+dependencies = [
+    "django>=5.2.6",
+    "djangorestframework>=3.16.1",
+    "langchain>=0.3.27",
+    "langchain-openai>=0.3.32",
+    "langgraph>=0.6.7",
+    "openai>=1.106.1",
+    "python-dotenv>=1.1.1",
+]
